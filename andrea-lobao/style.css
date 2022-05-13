@@ -48,6 +48,10 @@ html .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a:hover 
 
 #botao-whatsapp-home .elementor-button-text { text-shadow: 1px 2px 4px #020202;}
 
+html #tg-scroll-to-top { border-radius: 30px; box-shadow: -4px 4px 7px #333; border: 2px solid #eee;}
+
+html .tg-icon { color: white;}
+#tg-scroll-to-top:hover { background: black;}
 
 /*Head*/
 
