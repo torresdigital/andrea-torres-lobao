@@ -46,6 +46,8 @@ html .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a { bord
 
 html .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a:hover { border-radius: 30px; font-weight: 600; text-shadow: 1px 2px 2px #333; }
 
+#botao-whatsapp-home .elementor-button-text { text-shadow: 1px 2px 4px #020202;}
+
 
 /*Head*/
 
