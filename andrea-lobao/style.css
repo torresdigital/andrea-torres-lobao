@@ -142,9 +142,9 @@ html .tg-icon { color: white;}
 	
 	html .tg-header-container.tg-container.tg-container--flex.tg-container--flex-center.tg-container--flex-space-between { max-width: 98%; margin: 0 5px; width: 100%; }
 	
-	.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-0dcc85c { margin-bottom: 12px; width: auto; position: relative; }
+	html .elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-0dcc85c { margin-bottom: 12px; width: auto; position: relative; }
 	
-	.elementor-797 .elementor-element.elementor-element-c3908b9 { width: 50%; }
+	html .elementor-797 .elementor-element.elementor-element-c3908b9 { width: 50%; }
 
 }
 
