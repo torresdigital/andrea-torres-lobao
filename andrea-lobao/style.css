@@ -137,6 +137,10 @@ html .tg-icon { color: white;}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
+	
+	html .tg-site-header--left .tg-block--two { margin-left: 0; }
+	
+	html .tg-header-container.tg-container.tg-container--flex.tg-container--flex-center.tg-container--flex-space-between { max-width: 98%; margin: 0 5px; width: 100%; }
 
 }
 
