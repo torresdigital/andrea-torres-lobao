@@ -39,7 +39,7 @@ html .tg-header-container.tg-container.tg-container--flex.tg-container--flex-cen
 }
 
 hmtl .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a { border-radius: 30px; }
-html .elementor-accordion p { font-size: 18px; }
+html .elementor-accordion p { font-size: 16px; }
 
 html .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a { border-radius: 30px; 
   font-weight: 600; text-shadow: 1px 1px 2px #333; }
@@ -142,10 +142,15 @@ html .tg-icon { color: white;}
 	
 	html .tg-header-container.tg-container.tg-container--flex.tg-container--flex-center.tg-container--flex-space-between { max-width: 98%; margin: 0 5px; width: 100%; }
 	
-	.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-0dcc85c { margin-bottom: 12px; width: auto; position: relative; }
+	html .elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-0dcc85c { margin-bottom: 12px; width: auto; position: relative; }
 	
-	.elementor-797 .elementor-element.elementor-element-c3908b9 { width: 50%; }
+	html .elementor-797 .elementor-element.elementor-element-c3908b9 { width: 50%; }
+	
+	html .elementor-accordion p { font-size: 15px; }
 
+	html .elementor-797 .elementor-element.elementor-element-d665f10 > .elementor-widget-container {
+  background: red; width: auto;  margin: 0 222px; font-weight: 400; }
+	
 }
 
 /* Medium Devices, Desktops */
