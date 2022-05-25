@@ -166,6 +166,8 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 	html .elementor-797 .elementor-element.elementor-element-d665f10 > .elementor-widget-container {
   background: red; width: auto;  margin: 0 222px; font-weight: 400; }
 	
+	html .elementor-797 .elementor-element.elementor-element-84c9cc9 img { width: 100%; }
+	
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -173,6 +175,10 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 }
 /* Medium Devices, iPads */
 @media only screen and (max-width : 810px) {
+	
+html .elementor-797 .elementor-element.elementor-element-84c9cc9 { width: 369px; max-width: auto;}
+html .elementor-797 .elementor-element.elementor-element-84c9cc9 img { width: 100%; }
+html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
 
 }
 /* Small Devices, Tablets */
