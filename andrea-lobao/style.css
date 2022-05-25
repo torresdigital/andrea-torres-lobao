@@ -48,7 +48,7 @@ html .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a:hover 
 #botao-whatsapp-home .elementor-button-text { text-shadow: 1px 2px 3px #262424;}
 html #tg-scroll-to-top { border-radius: 30px; box-shadow: -4px 4px 7px #333; border: 2px solid #eee;}
 
-/*html .tg-icon { color: white;}*/
+html #tg-scroll-to-top .tg-icon { color: white;}
 #tg-scroll-to-top:hover { background: black;}
 
 html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-accordion-item {
@@ -100,7 +100,6 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 @media only screen and (min-width : 320px) {
 
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 360px) {
 
@@ -113,22 +112,22 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 @media only screen and (min-width : 643px) {
 
 }
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
 }
+/* Medium Devices, iPads */
+@media only screen and (max-width : 810px) {
 
+}
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 1024px) {
 
 }
-
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
@@ -147,12 +146,10 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 @media only screen and (max-width : 1280px) {
 
 }
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
 	
@@ -170,12 +167,14 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
   background: red; width: auto;  margin: 0 222px; font-weight: 400; }
 	
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
 }
+/* Medium Devices, iPads */
+@media only screen and (max-width : 810px) {
 
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
@@ -193,13 +192,10 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 @media only screen and (max-width : 360px) {
 
 }
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
 }
-
-
 /*
 Based on:
 1. http://stephen.io/mediaqueries
