@@ -28,14 +28,13 @@ html .tg-site-header-bottom { padding-top: 5px; padding-bottom: 5px;}
 html .tg-site-header-bottom {
   padding-top: 5px;
   padding-bottom: 5px;
-  height: 62px;
+  height: auto;
   top: auto;
   position: relative;
 }
 html .tg-header-container.tg-container.tg-container--flex.tg-container--flex-center.tg-container--flex-space-between {
   position: relative;
   height: auto;
-  max-height: 52px;
 }
 
 hmtl .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a { border-radius: 30px; }
