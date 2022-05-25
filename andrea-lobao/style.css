@@ -58,6 +58,14 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
   font-size: 18px;
 }
 .tg-page-header__title { background: #fff; padding: 0 15px; }
+.menu-item.tg-header-button-wrap {
+  border: 3px solid #c6c6c6;
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  background: black;
+}
 
 /*Head*/
 
