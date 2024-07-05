@@ -7,7 +7,7 @@ Author URI: https://torresdigital.com.br/
 Description: Advogada que atua na áreaTrabalhista há mais de 5 anos. Pós- graduada em direito do trabalho e processo do trabalho, MBA em Governança Corporativa, gestão de riscos e Compliance.
 Tags: torresdigital.com.br
 Version: 1.0.1651182984
-Updated: 2022-04-28 18:56:24
+Updated: 2022-04-28 18:56:24 last ( 04. jul. 2024 )
 
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -45,7 +45,7 @@ html .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a { bord
 
 html .main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a:hover { border-radius: 30px; font-weight: 600; text-shadow: 1px 2px 2px #333; }
 
-#botao-whatsapp-home .elementor-button-text { text-shadow: 1px 2px 3px #262424;}
+#botao-whatsapp-home .elementor-button-text:hover { text-shadow: 1px 2px 3px #686868;}
 html #tg-scroll-to-top { border-radius: 30px; box-shadow: -4px 4px 7px #333; border: 2px solid #eee;}
 
 html #tg-scroll-to-top .tg-icon { color: white;}
@@ -70,11 +70,85 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 }
 .menu-item.tg-header-button-wrap a {color: #fff}
 
+html .elementor-797 .elementor-element.elementor-element-2ec4f98 .elementor-button {
+  border-radius: 0;
+  padding: 15px 35px 15px 35px;
+  border: 3px solid #e1e1e1;
+  font-family: Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+html .elementor-797 .elementor-element.elementor-element-2ec4f98 .elementor-button:hover, 
+html .elementor-797 .elementor-element.elementor-element-2ec4f98 .elementor-button:focus {
+  color: #fff;
+  background-color: #000;
+  border-color: #ffffff;
+}
+
+
+
 /*Head*/
+
+/* head bar and whatsApp information*/
+html .zak-top-bar { padding: 5px 0; }
+html  .fa.fa-whatsapp { color: green;}
+html .zak-top-bar p {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+html .fa-whatsapp::before {
+  content: "\f232";
+  font-size: 26px;
+  transition: background 0.2s ease-in-out 0s;
+  animation: shadow-pulse 1s infinite;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(38, 100, 32, 0.4);
+  border-radius: 30px;
+  background: #96ff4f;
+  height: 20px;
+  line-height: 22px;
+  display: block;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);
+  box-shadow: 0px 0px 6px 0px rgba(138, 138, 138, 0.55);
+  animation: shadow-pulse 1s infinite;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+  width: 23px;
+}
+
+html .fa-whatsapp::before, html .fa.fa-whatsapp {
+  box-shadow: 0 0 0 0 rgb(80, 255, 0);
+  transform: scale(1);
+  animation: pulse 1.5s infinite;
+  border-radius: 30px;
+}
+html .zak-header-buttons .zak-header-button.zak-header-button--1 .zak-button {
+  background-color: #fff;
+  box-shadow: 0 0 0 0 rgb(80, 255, 0);
+  transform: scale(1);
+  animation: pulse 1.5s infinite;
+  border-radius: 30px;
+  color: #000;
+}
+html .zak-header-buttons .zak-header-button.zak-header-button--1 .zak-button:hover {
+  background-color: #000;
+  box-shadow: 0 0 0 0 rgb(80, 255, 0);
+  transform: scale(1);
+  animation: pulse 1.5s infinite;
+  border-radius: 30px;
+  color: #fff;
+}
+
+
 
 /*Logo*/
 
 /*Menu*/
+html .zak-main-header {
+  padding: 10px 0;
+}
 
 /*Home*/
 
@@ -83,6 +157,29 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-acco
 /*Woocommerce*/
 
 /*Footer*/
+html .zak-scroll-to-top {
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 0 rgb(80, 255, 0);
+  transform: scale(1);
+  animation: pulse 1.5s infinite;
+}
+html #zak-scroll-to-top {
+  right: 56px;
+  bottom: 8px;
+}
+
+html .mc4wp-form-fields { 
+	display: block;
+}
+html .mc4wp-form-fields input {
+  width: 100%;
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 0px;
+}
 
 
 /*BootStrap*/
@@ -200,6 +297,31 @@ html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	
+	 html .elementor-797 .elementor-element.elementor-element-d665f10 > .elementor-widget-container {
+    background: transparent;
+    width: auto;
+    margin: 0;
+    margin-bottom: 0px;
+    font-weight: 400;
+    border: 3px solid #fff;
+    line-height: inherit;
+    height: 46px;
+    padding: 9px 0;
+    margin-bottom: 12px;
+  }
+	
+	html  .elementor-797 .elementor-element.elementor-element-573deae .elementor-button {
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 46px;
+    line-height: initial;
+  }
+	html .elementor-797 .elementor-element.elementor-element-f471c5d {
+  text-align: center;
+  font-weight: 600;
+  line-height: 24px;
+  }
 
 }
 /*
@@ -656,12 +778,11 @@ like a charm in your responsive design!
     and (max-device-height: 281px) {
 
 }
+@keyframes pulse { 
+	
+	0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);}
+	70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); }
+	100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+}
 
-
-
-/* 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
-@import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
-
-@import url('https://fonts.googleapis.com/css?family=Poppins');
--moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
-/*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
+/*@keyframes shadow-pulse{0% {box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);}100% {box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);}}*/
