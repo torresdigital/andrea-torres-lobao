@@ -7,7 +7,7 @@ Author URI: https://torresdigital.com.br/
 Description: Advogada que atua na áreaTrabalhista há mais de 5 anos. Pós- graduada em direito do trabalho e processo do trabalho, MBA em Governança Corporativa, gestão de riscos e Compliance.
 Tags: torresdigital.com.br
 Version: 1.0.1651182984
-Updated: 2022-04-28 18:56:24 last ( 04. jul. 2024 )
+Updated: 2022-04-28 18:56:24
 
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -141,6 +141,9 @@ html .zak-header-buttons .zak-header-button.zak-header-button--1 .zak-button:hov
   color: #fff;
 }
 
+html .zak-header-buttons .zak-header-button.zak-header-button--1 .zak-button {
+padding: 6px 20px;
+}
 
 
 /*Logo*/
@@ -151,6 +154,23 @@ html .zak-main-header {
 }
 
 /*Home*/
+html .elementor-797 .elementor-element.elementor-element-89afea6 > .elementor-background-overlay {
+  background-color: #000;
+  opacity: 0.91;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  border-bottom: 4px solid;
+}
+html .elementor-797 .elementor-element.elementor-element-e721cba > .elementor-background-overlay {
+  background-color: #000;
+  opacity: 0.91;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+
+}
+.zak-footer-cols {
+  border-top-color: #fff;
+}
 
 /*Blog*/
 
@@ -322,6 +342,18 @@ html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
   font-weight: 600;
   line-height: 24px;
   }
+	html .elementor-797 .elementor-element.elementor-element-c3908b9 {
+    width: 100%;
+	text-align: center;
+  }
+   html .elementor-797 .elementor-element.elementor-element-2ec4f98 .elementor-button {
+  border-radius: 0;
+  padding: 8px 35px; }
+	
+ #zak-mobile-nav {
+
+  width: 87%;
+	}
 
 }
 /*
