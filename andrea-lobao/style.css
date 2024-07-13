@@ -246,6 +246,10 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-tab-
 }
 
 /*Blog*/
+html .zak-page-header__title .zak-page-title {
+  color: #fff;
+  font-weight: 600;
+}
 
 /*Woocommerce*/
 
