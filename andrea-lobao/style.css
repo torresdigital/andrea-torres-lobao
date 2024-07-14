@@ -250,6 +250,9 @@ html .zak-page-header__title .zak-page-title {
   color: #fff;
   font-weight: 600;
 }
+html .zak-entry-meta a, html .zak-entry-footer a {
+  color: #000;
+}
 
 /*Woocommerce*/
 
@@ -265,6 +268,7 @@ html .zak-scroll-to-top {
 html #zak-scroll-to-top {
   right: 56px;
   bottom: 8px;
+  background: #000;
 }
 
 html .mc4wp-form-fields { 
@@ -276,6 +280,9 @@ html .mc4wp-form-fields input {
   display: block;
   margin-bottom: 10px;
   border-radius: 0px;
+}
+html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-accordion-icon, .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-accordion-title {
+  color: #000;
 }
 
 
