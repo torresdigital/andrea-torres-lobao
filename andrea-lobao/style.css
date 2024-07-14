@@ -246,6 +246,24 @@ html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-tab-
 }
 
 /*Blog*/
+html .zak-page-header__title .zak-page-title {
+  color: #fff;
+  font-weight: 600;
+}
+html .zak-entry-meta a, html .zak-entry-footer a {
+  color: #000;
+}
+html .zak-entry-meta {
+  border-bottom: 2px solid #000;
+  padding-bottom: 20px;
+}
+#recent-posts-2 a {
+  text-transform: lowercase;
+  color: #000;
+}
+html .entry-content p {
+  font-size: 18px;
+}
 
 /*Woocommerce*/
 
@@ -261,6 +279,7 @@ html .zak-scroll-to-top {
 html #zak-scroll-to-top {
   right: 56px;
   bottom: 8px;
+  background: #000;
 }
 
 html .mc4wp-form-fields { 
@@ -272,6 +291,9 @@ html .mc4wp-form-fields input {
   display: block;
   margin-bottom: 10px;
   border-radius: 0px;
+}
+html .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-accordion-icon, .elementor-797 .elementor-element.elementor-element-f7b9335 .elementor-accordion-title {
+  color: #000;
 }
 
 
@@ -379,7 +401,7 @@ html .mc4wp-form-fields input {
 /* Medium Devices, iPads */
 @media only screen and (max-width : 810px) {
 	
-html .elementor-797 .elementor-element.elementor-element-84c9cc9 { width: 369px; max-width: auto;}
+html .elementor-797 .elementor-element.elementor-element-84c9cc9 { width: 369px;}
 html .elementor-797 .elementor-element.elementor-element-84c9cc9 img { width: 100%; }
 html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
 
@@ -390,9 +412,26 @@ html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 643px) {
-	html .elementor-icon-box-icon {
-      float: left;
-	}
+	
+	html .elementor-icon-box-icon { float: left; }
+	
+	html .elementor-797 .elementor-element.elementor-element-84c9cc9 {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+  }
+	
+	html .elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-0dcc85c {
+    width: 100%;
+  }
+	html .elementor-797 .elementor-element.elementor-element-c3908b9 {
+    width: 100%;
+    margin-top: 20px;
+  }
+	html .elementor-797 .elementor-element.elementor-element-2e3c158 .elementor-heading-title {
+    font-size: 39px;
+  }
 
 }
 
@@ -402,6 +441,10 @@ html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 360px) {
+	html #zak-scroll-to-top {
+  right: 7px;
+  bottom: 3px;
+	}
 
 }
 /* Custom, iPhone Retina */
@@ -439,10 +482,9 @@ html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
   border-radius: 0;
   padding: 8px 35px; }
 	
- #zak-mobile-nav {
-
-  width: 87%;
-	}
+ #zak-mobile-nav { width: 87%; }
+	
+	
 
 }
 /*
