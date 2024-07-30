@@ -445,6 +445,11 @@ html .tg-primary-menu > div > ul > li { margin: 7px 15px; }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	
+html .zak-footer-bar__1 {
+  text-align: center;
+  display: contents;
+}
 
 }
 /* Custom, iPhone Retina */
